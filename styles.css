@@ -1,0 +1,94 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0; /* Helles Grün für den Hintergrund */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Kopfbereich */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e74c3c; /* Rotes für die Hauptüberschrift */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #27ae60; /* Grüner Text für den Untertitel */
+}
+
+/* Galerie */
+.gallery {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    color: #27ae60; /* Grüner Text für den Galerietitel */
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Entschuldigung */
+.message {
+    margin-bottom: 40px;
+}
+
+.message h2 {
+    font-size: 2em;
+    color: #e74c3c; /* Rote Überschrift für Entschuldigung */
+}
+
+.message p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333; /* Dunkelgrauer Text für den Entschuldigungsbereich */
+}
+
+/* Abschluss */
+.closing {
+    margin-bottom: 30px;
+}
+
+.closing h2 {
+    font-size: 2em;
+    color: #e74c3c; /* Rote Überschrift für Abschlussbereich */
+}
+
+.closing p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #777;
+}
